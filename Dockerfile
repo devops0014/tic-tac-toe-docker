@@ -1,4 +1,4 @@
-FROM centos:centos7
+FROM centos7
 RUN yum -y install epel release
 RUN yum -y install nginx
 COPY . /usr/share/nginx/html
